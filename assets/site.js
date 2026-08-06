@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu-button').forEach(btn=>btn.addEventListener('click',()=>{const nav=document.querySelector('.nav-links');const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));}));document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
